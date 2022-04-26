@@ -6,6 +6,7 @@ public class SimpleButton : MonoBehaviour
 {
 
     public GameObject camera;
+    public GameObject door;
 
     void Update()
     {
@@ -17,6 +18,7 @@ public class SimpleButton : MonoBehaviour
 
                 if (result.collider.gameObject == this.gameObject) {
                     print("UNLOCKED");
+                    Destroy(door.gameObject);
                 }
             }
         }
