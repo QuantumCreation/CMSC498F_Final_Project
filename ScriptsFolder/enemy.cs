@@ -54,7 +54,8 @@ public class enemy : MonoBehaviour
         UnityEngine.AI.NavMesh.SamplePosition(randDirection, out navHit, dist, layermask);
         return navHit.position;
     }
-
+    
+    // we can use nav mesh obstable instead of this. It is more accurate and auto handles rigid/not pass through
     private void OnTriggerEnter(Collider other)
     {
         // if hit an obstacle, set a new random destination
