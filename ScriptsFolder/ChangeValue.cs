@@ -13,7 +13,7 @@ using UnityEngine;
 public class ChangeValue : MonoBehaviour
 {
 
-    int value = 0;
+    public int value = 0;
     public GameObject camera;
     public GameObject up;
     public GameObject down;
