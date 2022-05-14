@@ -17,7 +17,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GearConfirm : MonoBehaviour
+public class ConfirmGear : MonoBehaviour
 {
 
     public GameObject camera;
@@ -26,6 +26,8 @@ public class GearConfirm : MonoBehaviour
     public GameObject numberCode2;
     public int value1;
     public int value2;
+    public bool locked = true;
+    public bool isLever;
 
     void Update()
     {
@@ -41,6 +43,10 @@ public class GearConfirm : MonoBehaviour
                         if (numberCode2.GetComponent<GearTask>().value == value2) {
                             // add another if statement here for more numbers
                             print("UNLOCKED!");
+                            locked = false;
+                            if (isLever == true) {
+                                this.transform.GetChild(0).gameObject.transform.Rotate(-90.0f, 0.0f, 0.0f);
+                            }
                             Destroy(door.gameObject);
                         }
                     }
