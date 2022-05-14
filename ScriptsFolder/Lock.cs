@@ -1,10 +1,9 @@
 // This script is for unlocking locks with colected keys
-// Attach it to the lock
+// Attach it to the locked door
 // Assign the main camera GO to the 'GameObject camera' in Unity
 // Assign the corresponding key GO to the 'GameObject key' in Unity
-// Asign the door this button controls GO to the 'GameObject door' in Unity
 
-// When the lock is interacted with, if it can find the GO associated with 'key' then it will not unlock
+// When the door is interacted with, if it can find the GO associated with 'key' then it will not unlock
 
 
 using System.Collections;
@@ -16,7 +15,6 @@ public class Lock : MonoBehaviour
 
     public GameObject camera;
     public GameObject key;
-    public GameObject door;
 
     void Update()
     {
@@ -30,7 +28,7 @@ public class Lock : MonoBehaviour
                     print("unlock?");
                     if (!(key.gameObject)) {
                         print("UNLOCKED!");
-                        Destroy(door.gameObject);
+                        Destroy(this.gameObject);
                     }
                 }
             }
