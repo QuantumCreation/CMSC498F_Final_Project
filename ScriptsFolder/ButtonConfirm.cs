@@ -6,6 +6,7 @@
 // Assign the second number text GO or gear GO to the 'GameObject numberCode2' in Unity
 // Assign a number 0-9 to the 'GameObject value1' in Unity
 // Assign a number 0-9 to the 'GameObject value2' in Unity
+// Set isLever to true if this object is a lever and leave it false if it is a button
 // If you want to add another number:
         // create 'public GameObject numberCode3;'
         // create 'public int value3;'
@@ -26,6 +27,8 @@ public class ButtonConfirm : MonoBehaviour
     public GameObject numberCode2;
     public int value1;
     public int value2;
+    public bool locked = true;
+    public bool isLever;
 
     void Update()
     {
@@ -41,6 +44,10 @@ public class ButtonConfirm : MonoBehaviour
                         if (numberCode2.GetComponent<ChangeValue>().value == value2) {
                             // add another if statement here for more numbers
                             print("UNLOCKED!");
+                            locked = false;
+                            if (isLever == true) {
+                                this.transform.GetChild(0).gameObject.transform.Rotate(-90.0f, 0.0f, 0.0f);
+                            }
                             Destroy(door.gameObject);
                         }
                     }
