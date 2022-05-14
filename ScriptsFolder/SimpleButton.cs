@@ -7,6 +7,8 @@ public class SimpleButton : MonoBehaviour
 
     public GameObject camera;
     public GameObject door;
+    public bool locked = true;
+    public bool isLever;
 
     void Update()
     {
@@ -18,6 +20,10 @@ public class SimpleButton : MonoBehaviour
 
                 if (result.collider.gameObject == this.gameObject) {
                     print("UNLOCKED");
+                    locked = false;
+                    if (isLever == true) {
+                                this.transform.GetChild(0).gameObject.transform.Rotate(-90.0f, 0.0f, 0.0f);
+                            }
                     Destroy(door.gameObject);
                 }
             }
