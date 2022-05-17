@@ -1,0 +1,462 @@
+fileFormatVersion: 2
+guid: e2ab9e7f0891a9348a7362722d5d1fee
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: -5721533475177721113
+    second: Door Copy|Cube.001Action
+  - first:
+      74: -1887314362323116035
+    second: Door Copy|Cube.002Action
+  - first:
+      74: -5272063616752371173
+    second: Door Copy|Cube.004Action
+  - first:
+      74: -7742238725594165349
+    second: Door Copy|Cube.005Action.001
+  - first:
+      74: 7026399149210231775
+    second: Door Copy|Cube.009Action
+  - first:
+      74: -4118792458633919430
+    second: Door Copy|CubeAction
+  - first:
+      74: 1229261515396356867
+    second: Door Copy|Space ShipAction
+  - first:
+      74: -8091943636863943494
+    second: Door Copy.001|Cube.001Action
+  - first:
+      74: 8423292600372687720
+    second: Door Copy.001|Cube.002Action
+  - first:
+      74: -8243723985982273011
+    second: Door Copy.001|Cube.004Action
+  - first:
+      74: 5638732251121007593
+    second: Door Copy.001|Cube.005Action.001
+  - first:
+      74: -5693092321854652672
+    second: Door Copy.001|Cube.009Action
+  - first:
+      74: 2818582286488065178
+    second: Door Copy.001|CubeAction
+  - first:
+      74: -3029060631275858813
+    second: Door Copy.001|Space ShipAction
+  - first:
+      74: 3066138579611233474
+    second: Door Copy.002|Cube.001Action
+  - first:
+      74: -3720266936936593472
+    second: Door Copy.002|Cube.002Action
+  - first:
+      74: -7760556404091991975
+    second: Door Copy.002|Cube.004Action
+  - first:
+      74: 7424832767219060950
+    second: Door Copy.002|Cube.005Action.001
+  - first:
+      74: 3790782608779167374
+    second: Door Copy.002|Cube.009Action
+  - first:
+      74: 7369660212064299480
+    second: Door Copy.002|CubeAction
+  - first:
+      74: 2304514629410288385
+    second: Door Copy.002|Space ShipAction
+  - first:
+      74: -82579408733029661
+    second: Door Copy.003|Cube.001Action
+  - first:
+      74: -8460824860699679403
+    second: Door Copy.003|Cube.002Action
+  - first:
+      74: 9222386447301552490
+    second: Door Copy.003|Cube.004Action
+  - first:
+      74: -7079270285293121300
+    second: Door Copy.003|Cube.005Action.001
+  - first:
+      74: 6159311604271110692
+    second: Door Copy.003|Cube.009Action
+  - first:
+      74: 3739496935552491823
+    second: Door Copy.003|CubeAction
+  - first:
+      74: -5524103199791220975
+    second: Door Copy.003|Space ShipAction
+  - first:
+      74: -351317547554190206
+    second: Door Copy.004|Cube.001Action
+  - first:
+      74: 835383408953299108
+    second: Door Copy.004|Cube.002Action
+  - first:
+      74: 3602753267565768720
+    second: Door Copy.004|Cube.004Action
+  - first:
+      74: 298159572288801932
+    second: Door Copy.004|Cube.005Action.001
+  - first:
+      74: -8274875865322409599
+    second: Door Copy.004|Cube.009Action
+  - first:
+      74: -8365906078625155089
+    second: Door Copy.004|CubeAction
+  - first:
+      74: -385482023956751141
+    second: Door Copy.004|Space ShipAction
+  - first:
+      74: 8417909783230402616
+    second: Door Copy.005|Cube.001Action
+  - first:
+      74: -3359540396298406572
+    second: Door Copy.005|Cube.002Action
+  - first:
+      74: 4179685454674105736
+    second: Door Copy.005|Cube.004Action
+  - first:
+      74: 8787725369175151581
+    second: Door Copy.005|Cube.005Action.001
+  - first:
+      74: -8569236485963882772
+    second: Door Copy.005|Cube.009Action
+  - first:
+      74: 6729632008590133462
+    second: Door Copy.005|CubeAction
+  - first:
+      74: 992519160891434843
+    second: Door Copy.005|Space ShipAction
+  - first:
+      74: -4788290204459930547
+    second: Spinny 1|Cube.001Action
+  - first:
+      74: -8018056957294177236
+    second: Spinny 1|Cube.002Action
+  - first:
+      74: 4862040674027655266
+    second: Spinny 1|Cube.004Action
+  - first:
+      74: -1515972287848653512
+    second: Spinny 1|Cube.005Action.001
+  - first:
+      74: 1218336941265429946
+    second: Spinny 1|Cube.009Action
+  - first:
+      74: 282245673108501865
+    second: Spinny 1|CubeAction
+  - first:
+      74: 1771730989872611052
+    second: Spinny 1|Space ShipAction
+  - first:
+      74: -5210441857634531696
+    second: Spinny 0|Cube.001Action
+  - first:
+      74: -5644774597574236434
+    second: Spinny 0|Cube.002Action
+  - first:
+      74: 8454680096226617904
+    second: Spinny 0|Cube.004Action
+  - first:
+      74: 6431009606746078157
+    second: Spinny 0|Cube.005Action.001
+  - first:
+      74: 7816429684237684699
+    second: Spinny 0|Cube.009Action
+  - first:
+      74: 6464298158131071474
+    second: Spinny 0|CubeAction
+  - first:
+      74: -6292601737550722453
+    second: Spinny 0|Space ShipAction
+  - first:
+      74: -3623828277384506533
+    second: Spinny 2|Cube.001Action
+  - first:
+      74: -9064631886334852620
+    second: Spinny 2|Cube.002Action
+  - first:
+      74: 6315044904698327536
+    second: Spinny 2|Cube.004Action
+  - first:
+      74: -5621243776004681430
+    second: Spinny 2|Cube.005Action.001
+  - first:
+      74: -7113012213180203575
+    second: Spinny 2|Cube.009Action
+  - first:
+      74: 4938948598305954781
+    second: Spinny 2|CubeAction
+  - first:
+      74: 1742283614147297025
+    second: Spinny 2|Space ShipAction
+  - first:
+      74: -4183377766955410254
+    second: Spinny 3|Cube.001Action
+  - first:
+      74: -8414161601963147875
+    second: Spinny 3|Cube.002Action
+  - first:
+      74: -6583624261148384284
+    second: Spinny 3|Cube.004Action
+  - first:
+      74: -6900881395137344191
+    second: Spinny 3|Cube.005Action.001
+  - first:
+      74: 2057258173649531171
+    second: Spinny 3|Cube.009Action
+  - first:
+      74: -3674988961170588409
+    second: Spinny 3|CubeAction
+  - first:
+      74: -5855555062673338002
+    second: Spinny 3|Space ShipAction
+  - first:
+      74: 7627550030311805443
+    second: Spinny 4|Cube.001Action
+  - first:
+      74: 6095327881723528656
+    second: Spinny 4|Cube.002Action
+  - first:
+      74: 2374833833016836991
+    second: Spinny 4|Cube.004Action
+  - first:
+      74: 6451900074881799030
+    second: Spinny 4|Cube.005Action.001
+  - first:
+      74: -1764837447781014513
+    second: Spinny 4|Cube.009Action
+  - first:
+      74: 7917276938612113054
+    second: Spinny 4|CubeAction
+  - first:
+      74: -4590532202674805619
+    second: Spinny 4|Space ShipAction
+  - first:
+      74: -8065969050768267389
+    second: Engine Blades|Cube.001Action
+  - first:
+      74: 1620799680427974522
+    second: Engine Blades|Cube.002Action
+  - first:
+      74: 8882691828797822736
+    second: Engine Blades|Cube.004Action
+  - first:
+      74: 4397534801073121393
+    second: Engine Blades|Cube.005Action.001
+  - first:
+      74: -7674717616416691957
+    second: Engine Blades|Cube.009Action
+  - first:
+      74: -8848350095316736745
+    second: Engine Blades|CubeAction
+  - first:
+      74: -5953817378893755362
+    second: Engine Blades|Space ShipAction
+  - first:
+      74: 1432171325773310075
+    second: Engine Blades 2|Cube.001Action
+  - first:
+      74: -4593283601563875438
+    second: Engine Blades 2|Cube.002Action
+  - first:
+      74: -5869892364161485370
+    second: Engine Blades 2|Cube.004Action
+  - first:
+      74: 7499040584533157086
+    second: Engine Blades 2|Cube.005Action.001
+  - first:
+      74: -2667765082793069012
+    second: Engine Blades 2|Cube.009Action
+  - first:
+      74: -4119906332349771216
+    second: Engine Blades 2|CubeAction
+  - first:
+      74: 2172642677474743656
+    second: Engine Blades 2|Space ShipAction
+  - first:
+      74: -345395349979328338
+    second: Engine Blades 3|Cube.001Action
+  - first:
+      74: 8445884909790810708
+    second: Engine Blades 3|Cube.002Action
+  - first:
+      74: 4534049647816799178
+    second: Engine Blades 3|Cube.004Action
+  - first:
+      74: -2154897351689788088
+    second: Engine Blades 3|Cube.005Action.001
+  - first:
+      74: 1655748684857781600
+    second: Engine Blades 3|Cube.009Action
+  - first:
+      74: -3865041420321132551
+    second: Engine Blades 3|CubeAction
+  - first:
+      74: 1620323916888423151
+    second: Engine Blades 3|Space ShipAction
+  - first:
+      74: -3615124648028629565
+    second: Engine Blades.001|Cube.001Action
+  - first:
+      74: 5744479288470310387
+    second: Engine Blades.001|Cube.002Action
+  - first:
+      74: 3457309270769413271
+    second: Engine Blades.001|Cube.004Action
+  - first:
+      74: 5890695871215921699
+    second: Engine Blades.001|Cube.005Action.001
+  - first:
+      74: -5967667044263135744
+    second: Engine Blades.001|Cube.009Action
+  - first:
+      74: 5382377369342499243
+    second: Engine Blades.001|CubeAction
+  - first:
+      74: 819664373743979807
+    second: Engine Blades.001|Space ShipAction
+  - first:
+      74: -6343142501362989500
+    second: Engine Blades 2.001|Cube.001Action
+  - first:
+      74: 2831553300060390709
+    second: Engine Blades 2.001|Cube.002Action
+  - first:
+      74: 1821303503788471818
+    second: Engine Blades 2.001|Cube.004Action
+  - first:
+      74: -2991189713145680064
+    second: Engine Blades 2.001|Cube.005Action.001
+  - first:
+      74: 3950866321034735340
+    second: Engine Blades 2.001|Cube.009Action
+  - first:
+      74: -6933634003790465878
+    second: Engine Blades 2.001|CubeAction
+  - first:
+      74: -3392916379152871705
+    second: Engine Blades 2.001|Space ShipAction
+  - first:
+      74: 8171116006792469933
+    second: Engine Blades 3.001|Cube.001Action
+  - first:
+      74: -5105406335625981713
+    second: Engine Blades 3.001|Cube.002Action
+  - first:
+      74: -8544732990221713696
+    second: Engine Blades 3.001|Cube.004Action
+  - first:
+      74: 305569363265838641
+    second: Engine Blades 3.001|Cube.005Action.001
+  - first:
+      74: -5656631990270255982
+    second: Engine Blades 3.001|Cube.009Action
+  - first:
+      74: -2522840629631519631
+    second: Engine Blades 3.001|CubeAction
+  - first:
+      74: 4246803321729849989
+    second: Engine Blades 3.001|Space ShipAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
