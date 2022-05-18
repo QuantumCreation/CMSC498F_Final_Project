@@ -357,6 +357,13 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/CameraMovementSimulator.cs"
 "Assets/Pickup.cs"
+"Assets/Underground Laboratory Generator/Scripts/AN_VideoView.cs"
+"Assets/Underground Laboratory Generator/Scripts/AN_Viewer.cs"
+"Assets/Underground Laboratory Generator/Scripts/CameraRotation.cs"
+"Assets/Underground Laboratory Generator/Scripts/Cell.cs"
+"Assets/Underground Laboratory Generator/Scripts/LaboratoryGenerator.cs"
+"Assets/Underground Laboratory Generator/Scripts/SimpleCharacter.cs"
+"Assets/Underground Laboratory Generator/Scripts/SimpleRandom.cs"
 -langversion:9.0
 
 /deterministic
