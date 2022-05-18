@@ -1,0 +1,112 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Collectible : MonoBehaviour
+{
+    [SerializeField] int currentFrame = 0;
+    [SerializeField] public static int currentScore = 0;
+    [SerializeField] public static int objectsCollected = 0;
+    public static ArrayList uniqueObjectsCollected = new ArrayList();
+    [SerializeField] int pointValue;
+    [SerializeField] TextMesh outputText;
+    Camera mainCamera;
+    // Start is called before the first frame update
+    void Start()
+    {
+        outputText.text = "";
+        outputText = GameObject.FindObjectOfType<TextMesh>();
+        mainCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+    }
+
+        // Update is called once per frame
+        void Update()
+    {
+        if (Input.GetKeyDown("joystick 1 button 0"))
+        {
+            
+            RaycastHit result;
+            if (Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, out result, Mathf.Infinity))
+            {
+                currentScore += pointValue;
+
+                if (uniqueObjectsCollected.Count == 0)
+                {
+                    uniqueObjectsCollected.Add(pointValue);
+                    objectsCollected += 1;
+                }
+                else if (uniqueObjectsCollected.Contains(pointValue) == false)
+                {
+                    uniqueObjectsCollected.Add(pointValue);
+                    objectsCollected += 1;
+                }
+                else
+                {
+                    objectsCollected += 1;
+                }
+
+                Destroy(result.transform.gameObject);
+
+                if (uniqueObjectsCollected.Count < 3)
+                {
+                    outputText.text = "total score: " + currentScore + "\n" + "total objects collected: " + objectsCollected + "\n" + "total unique objects collected: " + uniqueObjectsCollected.Count;
+                }
+                else
+                {
+                    outputText.text = "YOU WIN! (Aaron)";
+                }
+            }
+        }
+
+
+        if (outputText)
+        {
+            //outputText.text = "current frame is: " + currentFrame;
+        }
+        else
+        {
+            outputText = GameObject.FindObjectOfType<TextMesh>();
+        }
+        currentFrame++;
+
+        
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.GetComponent<Collider>().gameObject.GetComponent<Camera>())
+        {
+            currentScore += pointValue;
+            
+            if (uniqueObjectsCollected.Count == 0)
+            {
+                uniqueObjectsCollected.Add(pointValue);
+                objectsCollected += 1;
+            }
+            else if (uniqueObjectsCollected.Contains(pointValue) == false)
+            {
+                uniqueObjectsCollected.Add(pointValue);
+                objectsCollected += 1;
+
+            } else
+            {
+                objectsCollected += 1;
+            }
+            Destroy(gameObject);
+            if (uniqueObjectsCollected.Count < 3)
+            {
+                outputText.text = "total score: " + currentScore + "\n" + "total objects collected: " + objectsCollected + "\n" + "total unique objects collected: " + uniqueObjectsCollected.Count;
+            } else
+            {
+                outputText.text = "YOU WIN! (Aaron)";
+            }
+        }
+
+        if (other.gameObject.tag == "MainCamera")
+        {
+            Destroy(gameObject);
+        }
+    }
+
+}
